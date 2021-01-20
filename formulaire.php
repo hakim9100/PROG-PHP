@@ -43,18 +43,6 @@
 		
 		
 
-	if (!isset($_POST['choix[]'])){ //Choix d'Orientation 
-		foreach ($_POST['choix'] as $val){
-			echo $val."<br>";
-		}
-	}
-	
-	else{
-		echo "Vous n'avez rien coché" . "<br>";
-	}
-
-
-
 	if (file_exists($_POST['cv'])){ // Verification  du CV
 		echo "Le fichier n'est pas présent" . "<br>";
 	}

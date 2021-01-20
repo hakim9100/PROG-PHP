@@ -6,10 +6,10 @@
  <BODY>
  	<UL>
           <?php
-          	$liens=file("tableau-06.txt");
+          	$liens=file("tableau-1332.txt");
 
-          	for ($i=0;$i<count($liens);$i++) {
-            	echo "<LI><A HREF=\"".$liens[$i]."\">".$liens[$i]."</A>\n";
+          	for ($j=0;$j<count($liens);$j++) {
+            	echo "<LI><A HREF=\"".$liens[$j]."\">".$liens[$j]."</A>\n";
           	}
           ?>
     </UL>
