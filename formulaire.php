@@ -31,18 +31,6 @@
 	}
 		
 
-	if (!empty($_POST['mail'])) { //Champ du Mail
-		if(filter_var($_POST['mail'],FILTER_VALIDATE_EMAIL)===false){
-			echo "Erreur de Mail" . "<br>";
-		}
-
-		else {
-			echo "Mail conforme" . "<br>";
-		}
-	}
-		
-		
-
 	if (file_exists($_POST['cv'])){ // Verification  du CV
 		echo "Le fichier n'est pas présent" . "<br>";
 	}
