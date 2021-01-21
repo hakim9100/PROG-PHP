@@ -9,23 +9,21 @@
 <?php
 
 $months  = array (
-
-"janvier" => "01",
-"fevrier" => "02",
-"mars" => "03",
-"avril" => "04",
-"mai" => "05",
-"juin" => "06",
-"juillet" => "07",
-"aout" => "08",
-"septembre" => "09",
-"octobre" => "10",
-"novembre" => "11",
-"décembre" => "12",
-
+	"janvier" => "1",
+	"fevrier" => "2",
+	"mars" => "3",
+	"avril" => "4",
+	"mai" => "5",
+	"juin" => "6",
+	"juillet" => "7",
+	"aout" => "8",
+	"septembre" => "9",
+	"octobre" => "10",
+	"novembre" => "11",
+	"décembre" => "12",
 );
 
-echo '<table border="1">';
+echo '<table border="2">';
 foreach ($months as $key => $value) {
 	echo '<tr>';
 	echo '<td>' .$key. '</td>' ;
