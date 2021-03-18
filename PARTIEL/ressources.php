@@ -1,6 +1,6 @@
 <?php
 
-//Définition de la classe Personne
+//Définition de la classe PersonneS
 
 class Personne {
 	//Attributs
