@@ -1,0 +1,8 @@
+body{
+    background: linear-gradient(100deg,#3F5EFB,#FC466B);
+    height: 1000hv;
+    display: flex;
+}
+h1{
+    text-decoration: underline;
+}
